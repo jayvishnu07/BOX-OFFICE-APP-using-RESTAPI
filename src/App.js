@@ -1,0 +1,22 @@
+// import { Router } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Starred from './pages/Starred';
+
+function App() {
+  return (
+    <div>
+      {/* <Navs /> */}
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route exact path="/starred">
+          <Starred />
+        </Route>
+      </Switch>
+    </div>
+  );
+}
+
+export default App;
