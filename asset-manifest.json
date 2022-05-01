@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/box-office/static/js/main.dd58827a.js",
+    "index.html": "/box-office/index.html",
+    "main.dd58827a.js.map": "/box-office/static/js/main.dd58827a.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.dd58827a.js"
+  ]
+}
